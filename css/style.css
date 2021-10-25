@@ -1,0 +1,80 @@
+/* geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5FFFA;
+    border: none;
+  
+}
+body{
+    background-image: url(../images/background.jpg)  ;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+/*cabecalho*/
+
+.name{
+text-align: center;
+margin-top: 20%;
+}
+.me{
+float: right; 
+margin-top: 7%;
+margin-right: 7%;
+}
+.me2{float: right; 
+margin-top: 7%;
+margin-right: 17%;
+}
+.eu3{
+    float: left; 
+    margin-top: 7%;
+    margin-left: 7%;
+    }
+    /* Redes sociais */
+
+    #social-container i{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+        color: white;
+        margin:0 5px;
+        cursor: pointer;
+        text-align: center;
+        margin-left:50%;
+        display: inline-block;
+         float: right;
+
+        }
+    .fa-instagram {
+        position: sticky;
+ display: inline-block;
+        width:16px; height:17px;
+        background: #f09433; 
+      background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+      background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+     
+    }
+    .fa-linkedin{
+        position: sticky;
+        display: inline-block;
+        width: 16px; height: 17px;
+        background-color:#0e76a8;
+    }
+    
+    /*Projects*/
+
+    #projects{
+    display: inline-block;
+text-align: center;
+margin-left:30% ;
+}
+
+.img{
+border-radius: 5%;
+}
